@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.6.0",
+    "prisma": "^6.6.0"
+  }
+}
